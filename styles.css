@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* { font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(63, 63, 63);
+    padding: 5px;
+
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(63, 63, 63);
+    background-color: rgb(241, 231, 214);
+    margin-left: 100px;
+    margin-right: 100px;
+   
+}
+
+.h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: cornflowerblue;
+    padding-top: 10px;
+    padding-bottom:  10px;
+    
+}
+
+.h2 { 
+    font-size: 40px;
+    font-weight: 700;
+    color: cornflowerblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-list {
+
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+ 
+}
+
+
+.nav-list li {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+
+.yabasic-box {
+  
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px;
+    border-style: hidden;
+    border-radius: 8px;
+    border-color: rgb(63, 63, 63);
+}
+
+
+.columns {
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+  
+}
+
+.columns > * {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 1;
+    
+}
+    
+.cards {
+    display: flex;
+    flex: 1;
+  
+
+
+    border: 1px;
+    border-style: dashed;
+    border-radius: 8px;
+    border-color: rgb(63, 63, 63);
+   
+
+}
+
+.yabasic-section {
+    display: block;
+    margin-top: 60px;
+}
